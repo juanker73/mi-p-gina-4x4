@@ -1,0 +1,113 @@
+.texto {
+    font-family: Arial, Helvetica, sans-serif;
+    color: orangered;
+    background: 000 000 000 160;
+    padding: 10px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.fondo {
+    background-image: url(imagenes/20160226_112900.jpg)
+}
+.boton {
+    min-width: 80px;
+    height: 15px;
+    color: orangered;
+    padding: 5px 10px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: rgba(172, 255, 47, 0.393);
+    box-shadow: 0 5px rgba(0, 128, 0, 0.445);
+}
+
+.boton:hover {
+    box-shadow: 0 3px rgba(0, 128, 0, 0.438);
+    top: 1px;
+    color: rgba(0, 128, 0, 0.434);
+}
+
+.boton:active {
+    box-shadow: 0 0 yellow;
+    top: 4px;
+}
+
+
+nav {
+    background: 000 000 000 93;
+    padding: 30px;
+    display: flex;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-around;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: greenyellow;
+    background: rgba(255, 166, 0, 0.244);
+}
+
+body {
+    background-image: url(imagenes/20160226_112900.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+p{
+    background: rgba(255, 166, 0, 0.32);
+}
+
+
+.columna {
+    background: 000 000 000 93;
+    color: greenyellow;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 90px;
+    width: 50%;
+    margin: 0px;
+    border: 2px solid rgb(54, 53, 53);
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+.columna:hover {
+    background: rgba(255, 255, 255, 0.272);
+}
+
+.columna:active {
+    background: orangered;
+}
+
+.padre {
+    display: flex;
+
+}
+
+.pequeña {
+    width: 40px;
+    height: 40px;
+    border: solid orangered 3px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.233);
+    margin: 3px;
+    display: inline
+}
+
+.inicio {
+    background-image: url(imagenes/20160226_112900.jpg)
+}
+.text{
+    color: rgba(0, 0, 255, 0.685);
+    background: rgba(255, 68, 0, 0.368);
+    background-size: auto; 
+}
